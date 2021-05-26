@@ -5,10 +5,8 @@ export default function Card(props) {
   const { name, description, keywords, url } = props;
   return (
     <Link to={url}>
-      <div className="p-4 mb-6 rounded overflow-hidden shadow-lg  cursor-pointer w-full bg-white">
-        <div className="font-bold text-purple-500 text-xl mb-4 mt-2">
-          {name}
-        </div>
+      <div className="text-left p-4 mb-6 rounded overflow-hidden shadow-lg  cursor-pointer w-full bg-white">
+        <div className="font-bold  text-xl mb-4 mt-2">{name}</div>
         <p className="mb-6">{description}</p>
         <div className="flex flex-wrap">
           {keywords &&

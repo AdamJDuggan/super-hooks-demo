@@ -24,7 +24,7 @@ export default function InitialFocus() {
         ref={initialFocus}
       />
       <label className="block mt-4">Not this one</label>
-      <input className="rounded border-2 border-purple-400" />
+      <input className="rounded border-2 border-grey-9  00" />
     </Hook>
   );
 }

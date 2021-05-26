@@ -2,21 +2,20 @@ const hooks = [
   {
     name: "useInitialFocus()",
     description:
-      "Returns a ref which can be placed on an element to focus that elememt as soon as it renders",
+      "Returns a ref which can be placed on an element to focus that elememt as soon as it renders.",
     keywords: ["ref", "current", "focus", "initial", "input"],
     url: "/initialFocus",
   },
   {
     name: "useWindowWidth()",
-    description:
-      "When you need javascript for breakpoints and responsive design",
+    description: `When you need javascript for breakpoints and responsive design.`,
     keywords: ["window", "responsive", "width", "breakpoints"],
     url: "/windowWidth",
   },
   {
     name: "useFirstRender()",
     description:
-      "Returns a boolean which is true when the enclosing components first renders",
+      "Returns a boolean which is true when the enclosing components first renders.",
     keywords: ["first", "render", "mount", "initial"],
     url: "/firstRender",
   },
@@ -24,31 +23,36 @@ const hooks = [
   {
     name: "useScrollWithKeys()",
     description:
-      "Returns a ref. Place this ref on a div and use the arrow keys to scroll the page to child elements",
+      "Returns a ref. Place this ref on a div and use the arrow keys to scroll between child elements of that parent div.",
     keywords: ["scroll", "arrow", "keys", "rows", "position"],
+    url: "/scrollWithKeys",
   },
   {
-    name: "useScrollTobottom()",
-    description:
-      "Returns a ref. Place on a list and when new items are added to list it with scroll to the last/bottom element",
+    name: "useScrollToBottom()",
+    description: `Recieves an array and returns a ref which, when placed on a div wrapping the array, 
+    will scroll to bottom of the div when new elements are added to the array.`,
     keywords: ["scroll", "bottom", "chatbox", "new", "messages"],
+    url: "scrollToBottom",
   },
   {
-    name: "useShowHideMenu()",
-    description: "Show, hide and position a dropDown menu",
+    name: "useShowHideElement()",
+    description: "Show, hide and position an element such as a dropdown menu",
     keywords: ["dropdown", "menu", "open", "outside", "click"],
+    url: "showHideElement",
   },
   {
     name: "useStateObject()",
     description:
       "Merge new properties into large state object to prevent having to always spread other values",
     keywords: ["state", "object", "merge", "spread"],
+    url: "stateObject",
   },
   {
     name: "useToggleInput()",
     description:
       "When you want to toggle between a text value and an input to update that value ",
     keywords: ["input", "inline", "update", "click"],
+    url: "toggleInput",
   },
 ];
 
