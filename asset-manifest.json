@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AdamJDuggan/super-hooks-demo/static/css/main.59065af7.chunk.css",
+    "main.js": "/AdamJDuggan/super-hooks-demo/static/js/main.7f90346a.chunk.js",
+    "main.js.map": "/AdamJDuggan/super-hooks-demo/static/js/main.7f90346a.chunk.js.map",
+    "runtime-main.js": "/AdamJDuggan/super-hooks-demo/static/js/runtime-main.5b4b30b1.js",
+    "runtime-main.js.map": "/AdamJDuggan/super-hooks-demo/static/js/runtime-main.5b4b30b1.js.map",
+    "static/js/2.e54de60e.chunk.js": "/AdamJDuggan/super-hooks-demo/static/js/2.e54de60e.chunk.js",
+    "static/js/2.e54de60e.chunk.js.map": "/AdamJDuggan/super-hooks-demo/static/js/2.e54de60e.chunk.js.map",
+    "index.html": "/AdamJDuggan/super-hooks-demo/index.html",
+    "static/css/main.59065af7.chunk.css.map": "/AdamJDuggan/super-hooks-demo/static/css/main.59065af7.chunk.css.map",
+    "static/js/2.e54de60e.chunk.js.LICENSE.txt": "/AdamJDuggan/super-hooks-demo/static/js/2.e54de60e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b4b30b1.js",
+    "static/js/2.e54de60e.chunk.js",
+    "static/css/main.59065af7.chunk.css",
+    "static/js/main.7f90346a.chunk.js"
+  ]
+}
