@@ -1,15 +1,9 @@
 // React
-import { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //Components
 import Header from "./components/Header";
 import Landing from "./components/Landing";
-import ScrollToTop from "./components/ScrollToTop";
+// import ScrollToTop from "./components/ScrollToTop";
 
 // Hook components
 import FirstRender from "./examples/FirstRender";
@@ -27,7 +21,7 @@ function App() {
       <Header />
       <div className="p-4 ">
         <Router>
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
           <Switch>
             <Route path="/firstRender" component={FirstRender} />
             <Route path="/initialFocus" component={InitialFocus} />

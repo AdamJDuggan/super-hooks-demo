@@ -29,8 +29,9 @@ const Details = () => (
     <li className="mb-4 ml-2 list-disc">
       <strong>visible: </strong> A boolean value used in your jsx to
       conditionally dispaly the element. By default visible is set to false.
-      However, you can overide this by passing an arguement true to the hook
-      and: <strong>useShowHideElement(true)</strong>.
+      However, you can overide this by passing an arguement (true) to the hook
+      like this
+      <strong>useShowHideElement(true)</strong>.
     </li>
     <li className="mb-4 ml-2 list-disc">
       <strong>ref: </strong> A ref to be placed on the element/div which you
