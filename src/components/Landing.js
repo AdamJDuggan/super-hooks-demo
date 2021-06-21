@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import Card from "./Card";
-import { hooks } from "../hooksData";
 
 export default function Landing() {
   return (
-    <div className="overflow-y-auto text-center">
+    <div className="overflow-y-auto text-center mb-20">
       <div className="imageGrid"></div>
 
       <div className="flex flex-col items-center">
@@ -16,13 +14,6 @@ export default function Landing() {
             </div>
             <div className="text-1xl text-orange">npm install super-hooks</div>
           </div>
-        </div>
-
-        {/* Hook Cards- list with key info on each */}
-        <div className="max-w-screen-sm">
-          {hooks.map((hook) => (
-            <Card {...hook} key={hook.name} />
-          ))}
         </div>
       </div>
     </div>

@@ -1,9 +1,7 @@
-// React
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 //Components
 import Header from "./components/Header";
 import Landing from "./components/Landing";
-// import ScrollToTop from "./components/ScrollToTop";
 
 // Hook components
 import FirstRender from "./examples/FirstRender";
@@ -20,21 +18,15 @@ function App() {
     <div className="bg-gray-100">
       <Header />
       <div className="p-4 ">
-        <Router>
-          {/* <ScrollToTop /> */}
-          <Switch>
-            <Route path="/firstRender" component={FirstRender} />
-            <Route path="/initialFocus" component={InitialFocus} />
-            <Route path="/windowWidth" component={WindowWidth} />
-            <Route path="/scrollToBottom" component={ScrollToBottom} />
-            <Route path="/showHideElement" component={ShowHideElement} />
-            <Route path="/stateObject" component={StateObject} />
-            <Route path="/scrollWithKeys" component={ScrollWithKeys} />
-            <Route path="/toggleInput" component={ToggleInput} />
-            <Route exact path="/" component={Landing} />
-            <Route path="*" component={Landing} />
-          </Switch>
-        </Router>
+        <Landing />
+        <ScrollToBottom />
+        <ScrollWithKeys />
+        <ShowHideElement />
+        <WindowWidth />
+        <StateObject />
+        <ToggleInput />
+        <FirstRender />
+        <InitialFocus />
       </div>
     </div>
   );

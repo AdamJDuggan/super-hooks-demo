@@ -19,8 +19,6 @@ const code = `
 const hook = getHook("useStateObject()");
 
 export default function InitialFocus() {
-  const [showState, setShowState] = useState(false);
-
   const [state, setState] = useStateObject({
     name: "Blanka",
     country: "Brazil",
