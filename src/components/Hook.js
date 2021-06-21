@@ -5,7 +5,7 @@ export default function Hook(props) {
   const { name, description, details, code, children } = props;
   return (
     <div className="max-w-screen-lg mx-auto pb-10 mb-20 border-b-2 border-fuchsia-600">
-      <h2 className="text-4xl font-bold mb-6">{name}</h2>
+      <h2 className="text-3xl font-bold mb-6">{name}</h2>
       <p className="text-2xl mb-10">{description}</p>
       {details && <p className="mb-10">{details()}</p>}
       <h3 className="text-2xl font-bold mb-2">Code</h3>

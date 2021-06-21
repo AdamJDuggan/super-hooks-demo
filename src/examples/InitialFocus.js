@@ -19,12 +19,9 @@ export default function InitialFocus() {
   return (
     <Hook {...hook} code={code}>
       <label className="block">Focus this one on render</label>
-      <input
-        className="rounded border-2 border-purple-400"
-        ref={initialFocus}
-      />
+      <input className="rounded border-2 border-grey-900" ref={initialFocus} />
       <label className="block mt-4">Not this one</label>
-      <input className="rounded border-2 border-grey-9  00" />
+      <input className="rounded border-2 border-grey-900" />
     </Hook>
   );
 }

@@ -25,10 +25,6 @@ export default function InitialFocus() {
     "#00d1b2",
     "#ff3860",
     "#363636",
-    "#3273dc",
-    "#00d1b2",
-    "#ff3860",
-    "#363636",
   ];
   return (
     <Hook {...hook} code={code}>

@@ -1,7 +1,10 @@
+// React
+import { useEffect } from "react";
 
 //Components
 import Header from "./components/Header";
 import Landing from "./components/Landing";
+
 
 // Hook components
 import FirstRender from "./examples/FirstRender";
@@ -14,6 +17,9 @@ import ScrollWithKeys from "./examples/ScrollWithKeys";
 import ToggleInput from "./examples/ToggleInput";
 
 function App() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   return (
     <div className="bg-gray-100">
       <Header />
